@@ -20,7 +20,7 @@ class CloudTa:
 
         self.v_usuario() 
 
-    def desplazable(self): # --> fracaso de barra desplazable
+    def desplazable(self, de_barra): # --> fracaso de barra desplazable
         self.de_barra = tk.Scale(self.ventana, bg="#A3BCB7", width=50, height=600)
         self.de_barra.pack(side="rigth", fill="y")
 
